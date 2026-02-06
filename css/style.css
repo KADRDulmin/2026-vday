@@ -153,6 +153,13 @@ button:active {
     transform: translateY(-5px);
 }
 
+.item-card.selected {
+    border: 3px solid var(--btn-hover);
+    background-color: #fff0f0;
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(255, 148, 148, 0.4);
+}
+
 .item-card img {
     width: 150px;
     height: 150px;
