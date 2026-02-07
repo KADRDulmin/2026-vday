@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (type && OPTIONS[type]) {
             // Add Header
             const header = document.createElement('h3');
-            header.innerText = "✨ Select everything you like! (Multiple Choice)";
+            header.innerText = "✨ Select everything you like, Senuri! (Multiple Choice)";
             header.style.width = '100%';
             header.style.textAlign = 'center';
             header.style.color = 'var(--text-color)';
@@ -191,10 +191,11 @@ function sendEmail() {
     const dessert = (data.dessert || []).join(', ') || "None";
     const activities = (data.activities || []).join(', ') || "None";
 
-    const subject = encodeURIComponent("My Valentine's Day Choices ❤️");
+    const subject = encodeURIComponent("My Valentine's Day Choices ❤️ - Senuri");
     const body = encodeURIComponent(`
-Hi My King (The Bestest Boyfriend in the World) aka Raminda! 
+Hi Raminda! (My King 👑)
 
+It's me, Senuri (your Baka 😽)!
 Here are my choices for our Valentine's Day:
 
 📅 Date: ${date}
@@ -205,7 +206,7 @@ Here are my choices for our Valentine's Day:
 
 🎡 Activities: ${activities}
 
-Can't wait! (｡♥‿♥｡)
+Can't wait to go out with you! Love you! ❤️
     `);
 
     window.location.href = `mailto:raminda5575@gmail.com?subject=${subject}&body=${body}`;
