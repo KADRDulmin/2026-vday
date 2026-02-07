@@ -1,34 +1,35 @@
 // Configuration Data - Colombo Edition 🇱🇰
 const OPTIONS = {
     food: [
+        { id: 'buffet', name: 'Taj Samudra Buffet', img: 'assets/img/food/buffet.jpg' },
         { id: 'crab', name: 'Ministry of Crab (Fine Dining)', img: 'assets/img/food/crab.png' },
         { id: 'hoppers', name: 'Egg Hoppers & Sambol', img: 'assets/img/food/hoppers.png' },
         { id: 'kottu', name: 'Chicken Cheese Kottu', img: 'assets/img/food/kottu.png' },
         { id: 'lamprais', name: 'Authentic Lamprais', img: 'assets/img/food/lamprais.png' },
-        { id: 'pizza', name: 'Giovanni\'s Woodfire Pizza', img: 'assets/img/food/pizza.png' },
-        { id: 'burger', name: 'Gourmet Burger (Street Burger)', img: 'assets/img/food/burger.png' },
-        { id: 'sushi', name: 'Premium Sushi (Zen/Ginza)', img: 'assets/img/food/sushi.png' },
+        { id: 'pizza', name: 'Flames Pizzeria', img: 'assets/img/food/pizza.png' },
+        { id: 'burger', name: 'Seafood Platter (The Manhattan Fish Market)', img: 'assets/img/food/seafood.jpg' },
+        { id: 'sushi', name: 'STREET BURGER', img: 'assets/img/food/burger.png' },
         { id: 'korean', name: 'Korean BBQ Feast', img: 'assets/img/food/korean.png' }
     ],
     dessert: [
-        { id: 'tresleches', name: 'Tres Leches (Butter Boutique)', img: 'assets/img/dessert/tresleches.png' },
-        { id: 'strawberries', name: 'Strawberries & Cream (Jagro)', img: 'assets/img/dessert/strawberries.png' },
-        { id: 'cheesecake', name: 'Blueberry Cheesecake', img: 'assets/img/dessert/cheesecake.png' },
-        { id: 'cremebrulee', name: 'Crème Brûlée', img: 'assets/img/dessert/cremebrulee.png' },
-        { id: 'boba', name: 'Brown Sugar Boba', img: 'assets/img/placeholder.svg' },
-        { id: 'watalappam', name: 'Watalappam', img: 'assets/img/placeholder.svg' },
-        { id: 'falooda', name: 'Falooda with Ice Cream', img: 'assets/img/placeholder.svg' },
-        { id: 'coffee', name: 'Cafe Date (Barista/Java)', img: 'assets/img/placeholder.svg' },
-        { id: 'thambili', name: 'King Coconut (Thambili)', img: 'assets/img/placeholder.svg' }
+        { id: 'tresleches', name: 'CAKEEE', img: 'assets/img/dessert/tresleches.png' },
+        { id: 'strawberries', name: 'Wafflesss', img: 'assets/img/dessert/strawberries.png' },
+        { id: 'cheesecake', name: 'Cheesecake', img: 'assets/img/dessert/cheesecake.png' },
+        { id: 'cremebrulee', name: 'Caramel Pudding', img: 'assets/img/dessert/cremebrulee.png' },
+        { id: 'boba', name: 'Bing Chun', img: 'assets/img/dessert/boba.jpg' },
+        { id: 'watalappam', name: 'Watalappam', img: 'assets/img/food/watalappam.webp' },
+        { id: 'falooda', name: 'Falooda with Ice Cream', img: 'assets/img/dessert/falooda.jpg' },
+        { id: 'coffee', name: 'Cafe Date (Barista)', img: 'assets/img/dessert/Barista.webp' },
+        { id: 'thambili', name: 'King Coconut (Thambili)', img: 'assets/img/dessert/coconut.jpg' }
     ],
     activities: [
-        { id: 'bowling', name: 'Bowling (Excel World)', img: 'assets/img/placeholder.svg' },
-        { id: 'arcade', name: 'Arcade Date (CCC)', img: 'assets/img/placeholder.svg' },
-        { id: 'sunset', name: 'Galle Face Sunset Walk', img: 'assets/img/placeholder.svg' },
-        { id: 'cinema', name: 'Movie Night (Scope/PVR)', img: 'assets/img/placeholder.svg' },
-        { id: 'park', name: 'Viharamahadevi Park Picnic', img: 'assets/img/placeholder.svg' },
-        { id: 'tuktuk', name: 'City Tuk-Tuk Tour', img: 'assets/img/placeholder.svg' },
-        { id: 'temple', name: 'Gangaramaya Temple Visit', img: 'assets/img/placeholder.svg' }
+        { id: 'bowling', name: 'Bowling (Excel World)', img: 'assets/img/activities/bowling.jpg' },
+        { id: 'arcade', name: 'Zoo Date (Dehiwala)', img: 'assets/img/activities/zoo.jpg' },
+        { id: 'sunset', name: 'Galle Face Sunset Walk', img: 'assets/img/activities/Galle-Face.jpg' },
+        { id: 'cinema', name: 'Movie Night (Scope/PVR)', img: 'assets/img/activities/movie.jpg' },
+        { id: 'park', name: 'Viharamahadevi Park Picnic', img: 'assets/img/activities/park.jpg' },
+        { id: 'tuktuk', name: 'Dayout (Taj Samudra)', img: 'assets/img/activities/day-outing.jpeg' },
+        { id: 'temple', name: 'Colombo Wax Museum (Arcade)', img: 'assets/img/activities/museum.png' }
     ]
 };
 
